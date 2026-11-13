@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Support - Tile Match Puzzle</title>
+<meta name="description" content="Support for Tile Match Puzzle.">
+<link rel="icon" href="icon.png">
+<style>
+:root{--ink:#241457;--soft:#6b6290;--bg:#fff4e6;--card:#fff;--primary:#7c5cff;--line:#ece6fb}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+header{background:linear-gradient(135deg,#2b1670,#4a2392);color:#fff;padding:28px 20px;text-align:center}
+header img{width:72px;height:72px;border-radius:18px;box-shadow:0 6px 18px rgba(0,0,0,.35)}
+header h1{margin:12px 0 2px;font-size:26px}
+header p{margin:0;opacity:.8;font-size:14px}
+nav{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;padding:14px 12px;background:#fff;border-bottom:1px solid var(--line)}
+nav a{color:var(--ink);text-decoration:none;font-weight:700;font-size:14px;padding:8px 14px;border-radius:12px;background:#f1ecff}
+nav a.on{background:var(--primary);color:#fff}
+main{max-width:780px;margin:0 auto;padding:22px 18px 60px}
+.card{background:var(--card);border-radius:20px;padding:22px 22px 8px;margin:18px 0;box-shadow:0 4px 18px rgba(43,31,92,.08)}
+h2{font-size:22px;margin:0 0 4px}
+h3{font-size:17px;margin:22px 0 4px}
+p,li{font-size:15.5px}
+.meta{color:var(--soft);font-size:13.5px;margin:0 0 12px}
+a{color:var(--primary)}
+.lang{display:flex;gap:8px;justify-content:center;margin:18px 0 0}
+.lang button{border:0;font-weight:800;font-size:14px;padding:8px 18px;border-radius:12px;background:#e9e2ff;color:var(--ink);cursor:pointer}
+.lang button.on{background:var(--primary);color:#fff}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.tile{display:block;background:#fff;border-radius:18px;padding:18px;text-decoration:none;color:var(--ink);box-shadow:0 4px 18px rgba(43,31,92,.08);font-weight:800}
+.tile span{display:block;color:var(--soft);font-weight:500;font-size:13.5px;margin-top:4px}
+footer{text-align:center;color:var(--soft);font-size:13px;padding:0 16px 40px}
+</style>
+</head>
+<body>
+<header>
+<img src="icon.png" alt="Tile Match Puzzle icon">
+<h1>Tile Match Puzzle</h1>
+<p>Support &middot; Destek</p>
+</header>
+<nav><a href="index.html" class="">Home / Ana Sayfa</a><a href="privacy.html" class="">Privacy Policy / Gizlilik</a><a href="terms.html" class="">Terms of Use / Koşullar</a><a href="support.html" class="on">Support / Destek</a></nav>
+<main>
+<div class="lang"><button id="b-en" onclick="setLang('en')">English</button><button id="b-tr" onclick="setLang('tr')">Türkçe</button></div>
+<div data-l="en">
+<div class="card">
+<h2>Support</h2>
+<p>Need help with <b>Tile Match Puzzle</b>, found a bug, or want to suggest something? Open an issue and we will take a look:</p>
+<p><a href="https://github.com/baharatbas/TileMatch-legal/issues"><b>https://github.com/baharatbas/TileMatch-legal/issues</b></a></p>
+<p>Please include your device model, operating system version, the app version (Settings &gt; bottom of the page) and a short description of what happened.</p>
+
+<h3>Frequently asked questions</h3>
+<p><b>Is my progress saved?</b><br>Yes. Levels, stars, gold and power-ups are saved on your device. They are not backed up online, so deleting the app or resetting the phone removes them.</p>
+<p><b>How do I get more power-ups?</b><br>When a power-up runs out, tap the green "+" on it: watch a rewarded ad (+1), or spend 15 stars or 50 gold.</p>
+<p><b>I lost because the tray filled up. Can I continue?</b><br>Yes, once per attempt you can watch a rewarded ad to put the tray cards back and keep playing.</p>
+<p><b>How do I change the language?</b><br>Settings &gt; Language. By default the app follows your device language (Turkish or English).</p>
+<p><b>How do I reset everything?</b><br>Settings &gt; Reset Progress.</p>
+<p><b>The ad did not load.</b><br>Ads need an internet connection and can take a moment to load. Try again later.</p>
+</div>
+</div>
+<div data-l="tr">
+<div class="card">
+<h2>Destek</h2>
+<p><b>Tile Match Puzzle</b> ile ilgili yardıma mı ihtiyacınız var, bir hata mı buldunuz veya bir önerisi mi var? Bir konu (issue) açın, bakalım:</p>
+<p><a href="https://github.com/baharatbas/TileMatch-legal/issues"><b>https://github.com/baharatbas/TileMatch-legal/issues</b></a></p>
+<p>Lütfen cihaz modelinizi, işletim sistemi sürümünüzü, uygulama sürümünü (Ayarlar &gt; sayfanın altı) ve olanın kısa bir açıklamasını ekleyin.</p>
+
+<h3>Sık sorulan sorular</h3>
+<p><b>İlerlemem kaydediliyor mu?</b><br>Evet. Leveller, yıldızlar, altın ve yardımcılar cihazınızda saklanır. Çevrimiçi yedeklenmez; uygulamayı silmek veya telefonu sıfırlamak bunları kaldırır.</p>
+<p><b>Daha fazla yardımcıyı nasıl alırım?</b><br>Bir yardımcının hakkı bitince üzerindeki yeşil "+" işaretine dokunun: ödüllü reklam izleyin (+1) veya 15 yıldız ya da 50 altın harcayın.</p>
+<p><b>Tepsi dolduğu için kaybettim. Devam edebilir miyim?</b><br>Evet, her denemede bir kez ödüllü reklam izleyip tepsideki kartları geri koyarak devam edebilirsiniz.</p>
+<p><b>Dili nasıl değiştiririm?</b><br>Ayarlar &gt; Dil. Varsayılan olarak uygulama cihaz dilinizi (Türkçe veya İngilizce) izler.</p>
+<p><b>Her şeyi nasıl sıfırlarım?</b><br>Ayarlar &gt; İlerlemeyi Sıfırla.</p>
+<p><b>Reklam yüklenmedi.</b><br>Reklamlar internet bağlantısı gerektirir ve yüklenmesi biraz sürebilir. Daha sonra tekrar deneyin.</p>
+</div>
+</div>
+</main>
+<footer>&copy; 2026 baharatbas</footer>
+<script>
+(function(){
+  var langs=['en','tr'];
+  function set(l){
+    langs.forEach(function(x){
+      document.querySelectorAll('[data-l="'+x+'"]').forEach(function(e){e.style.display=(x===l)?'':'none'});
+      var b=document.getElementById('b-'+x); if(b) b.className=(x===l)?'on':'';
+    });
+    try{localStorage.setItem('lang',l)}catch(e){}
+    document.documentElement.lang=l;
+  }
+  var q=(location.hash||'').replace('#','');
+  var l=langs.indexOf(q)>=0?q:null;
+  if(!l){try{l=localStorage.getItem('lang')}catch(e){}}
+  if(!l){l=(navigator.language||'en').toLowerCase().indexOf('tr')===0?'tr':'en'}
+  window.setLang=function(x){set(x);history.replaceState(null,'','#'+x)};
+  set(l);
+})();
+</script>
+</body>
+</html>
